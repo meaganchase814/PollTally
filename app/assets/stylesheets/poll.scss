@@ -1,3 +1,23 @@
 // Place all the styles related to the poll controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.option {
+    background-color: rgb(253, 253, 116);
+    position:relative;
+    margin:10px;
+    padding: 5px;
+    height: auto;
+    width: 13vw;
+    box-shadow:2px 2px 8px rgb(2, 2, 2);
+    text-align: left;
+    overflow: hidden;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align:center;
+    position: relative;
+    justify-items: center;
+ 
+}
